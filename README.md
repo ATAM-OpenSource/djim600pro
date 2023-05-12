@@ -60,4 +60,3 @@ The following is execute the "Flight Control":
 ```
 ./djiosdk-flightcontrol-sample UserConfig.txt UserConfig.txt
 ```
-
