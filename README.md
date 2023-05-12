@@ -31,7 +31,7 @@ make
 In home/dji-osdk-3.9/buid/osdk-core 
 dji osdk library should be copied to raspberry pi library.
 ```
-
+sudo cp libdjiosdk-core.a /usr/lib/
 ```
 
 In home/dji-osdk-3.9/sample/platform/linux
@@ -41,3 +41,23 @@ cd build
 cmake ..
 make
 ``` 
+Creating UserConfig.txt to home/dji-osdk-3.9/sample/platform/linux all samples.
+
+app_id:          //Developer ID\
+app_key:         //App Key\
+device:          //Serial port number\
+bauderate:       //Serial baud rate\
+acm_port:        //ACM port number
+
+
+device /dev/ttyUSB0\
+baudrate 115200\
+acm port usually /dev/dev/ttyACM0
+
+from https://account.dji.com/login?appId=dji_sdk&backUrl=https%3A%2F%2Fdeveloper.dji.com%2Fuser&locale=en_US 
+
+The following is execute the "Flight Control": 
+```
+./djiosdk-flightcontrol-sample UserConfig.txt UserConfig.txt
+```
+
