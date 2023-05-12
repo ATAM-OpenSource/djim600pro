@@ -20,6 +20,3 @@ This project is about controlling dji matrice 600 pro drone with raspberry pi wi
  
  # Connection 
   -  ![resim](https://github.com/ATAM-OpenSource/djim600pro/assets/108119567/5b0fe8a6-1437-4c98-8d02-f6a458fc2e0b)
-
-
-
