@@ -17,6 +17,27 @@ This project is about controlling dji matrice 600 pro drone with raspberry pi wi
   - Development Environment Information-> https://developer.dji.com/onboard-sdk/documentation/quickstart/development-environment.html
 - USB-UART Converter Information
   - Model:CP2102 USB UART Board
- 
- # Connection 
-  -  ![resim](https://github.com/ATAM-OpenSource/djim600pro/assets/108119567/5b0fe8a6-1437-4c98-8d02-f6a458fc2e0b)
+
+
+
+In home/dji-osdk-3.9
+```
+sudo mkdir build
+cd build
+cmake ..
+make
+
+``` 
+In home/dji-osdk-3.9/buid/osdk-core 
+dji osdk library should be copied to raspberry pi library.
+```
+
+```
+
+In home/dji-osdk-3.9/sample/platform/linux
+```
+sudo mkdir build
+cd build
+cmake ..
+make
+``` 
