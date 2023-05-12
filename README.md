@@ -1,4 +1,4 @@
-# djim600pro
+# DJI-M600-PRO
 This project is about controlling dji matrice 600 pro drone with raspberry pi with data from laser tracker.
 - Drone Information;
   - Model: DJI Matrice 600 Pro
